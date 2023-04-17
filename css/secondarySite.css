@@ -1,0 +1,68 @@
+html {
+	font-size: 12px;
+	font-family: 'Playfair Display', serif;
+}
+
+body {
+    height: 99vh;
+
+    color: white;
+	flex-direction: column;
+	background-image: linear-gradient(-25deg, #000000 0%, #343434 100%);
+}
+
+p {
+    margin-top: 10%;
+    margin-left: 5%;
+
+    font-size: 175%;
+}
+
+.logo {
+    position: fixed;
+    top: 2%;
+    left: 5%;
+
+    cursor: pointer;
+    font-size: 370%;
+    color: #fff;
+    text-decoration: none;
+}
+
+.pdfInterExam {
+    width: 65%;
+    height: 70%;
+
+    margin-left: 2%;
+    border:1px solid white;
+}
+
+.block {
+    display: inline;
+    height: 100vh;
+}
+
+.block:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.left, .right
+{
+    width: 45%;
+    margin-right: 2%;
+    height: 50vh;
+    border:1px solid white;
+}
+
+.left {float: left;}
+.right {float: right;}
+
+.pdfExam{
+    flex: 1 1 auto;
+    margin: 0 5px;
+    height: 100%;
+    width: 100%;
+}
